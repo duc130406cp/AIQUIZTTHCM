@@ -130,7 +130,6 @@ async function getAdviceFromGemini(score, total, topic) {
   return data.result || "Không có phản hồi.";
 }
 
-// 🔄 Tạo danh sách câu hỏi từ GPT
 async function generateQuestionsFromGPT(topicValue, num) {
   const apiKey = sessionStorage.getItem("API_KEY");
   let topicText = "";
