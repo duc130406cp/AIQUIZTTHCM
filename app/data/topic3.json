@@ -1,0 +1,502 @@
+[
+  {
+    "question": "Theo Hồ Chí Minh, độc lập dân tộc là quyền gì của các dân tộc?",
+    "options": [
+      "Quyền tạm thời",
+      "Quyền thiêng liêng, bất khả xâm phạm",
+      "Quyền có điều kiện",
+      "Quyền của một số dân tộc"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Hồ Chí Minh gửi bản Yêu sách của nhân dân An Nam tới Hội nghị nào?",
+    "options": [
+      "Hội nghị Vécxây",
+      "Hội nghị Paris",
+      "Hội nghị Genève",
+      "Hội nghị Bretton Woods"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Mục tiêu chính trị của Đảng theo Chánh cương vắn tắt 1930 là gì?",
+    "options": [
+      "Đánh đổ đế quốc Pháp và phong kiến, làm cho nước Nam độc lập hoàn toàn",
+      "Xây dựng chủ nghĩa xã hội",
+      "Tăng cường quan hệ với các nước tư bản",
+      "Giữ nguyên chế độ phong kiến"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Trong Tuyên ngôn Độc lập 1945, Hồ Chí Minh khẳng định:",
+    "options": [
+      "Việt Nam là thuộc địa của Pháp",
+      "Việt Nam có quyền hưởng tự do và độc lập",
+      "Việt Nam cần sự bảo hộ của Liên hợp quốc",
+      "Việt Nam sẽ trở thành nước tư bản"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Hồ Chí Minh từng nói: “Không có gì quý hơn…”?",
+    "options": [
+      "Hòa bình",
+      "Độc lập, tự do",
+      "Tự do báo chí",
+      "Tình hữu nghị quốc tế"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Độc lập dân tộc phải gắn liền với những yếu tố nào?",
+    "options": [
+      "Tự do, cơm no, áo ấm, hạnh phúc của nhân dân",
+      "Chỉ tự do",
+      "Chỉ cơm no",
+      "Chỉ áo ấm"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Độc lập dân tộc phải là nền độc lập như thế nào?",
+    "options": [
+      "Giả tạo, nửa vời",
+      "Thật sự, hoàn toàn và triệt để",
+      "Chỉ về mặt chính trị",
+      "Chỉ về mặt quân sự"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Hồ Chí Minh nhấn mạnh độc lập dân tộc phải gắn liền với điều gì về lãnh thổ?",
+    "options": [
+      "Toàn vẹn và thống nhất",
+      "Chia cắt để dễ quản lý",
+      "Thuộc địa hóa",
+      "Tự trị từng vùng"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Con đường cách mạng giải phóng dân tộc theo Hồ Chí Minh là?",
+    "options": [
+      "Cách mạng tư sản",
+      "Cách mạng vô sản",
+      "Cách mạng phong kiến",
+      "Cách mạng dân chủ tư sản"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Theo Hồ Chí Minh, trong cách mạng giải phóng dân tộc, Đảng nào lãnh đạo?",
+    "options": [
+      "Đảng tư sản",
+      "Đảng cộng sản",
+      "Đảng phong kiến",
+      "Đảng trung lập"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Lực lượng đại đoàn kết trong cách mạng giải phóng dân tộc theo Hồ Chí Minh là?",
+    "options": [
+      "Liên minh công - nông",
+      "Liên minh tư sản - phong kiến",
+      "Liên minh trí thức - thương nhân",
+      "Liên minh quân đội - cảnh sát"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Hồ Chí Minh cho rằng cách mạng thuộc địa có thể thắng lợi khi nào?",
+    "options": [
+      "Phụ thuộc vào cách mạng vô sản ở chính quốc",
+      "Chủ động, sáng tạo và có thể thắng lợi trước cách mạng vô sản ở chính quốc",
+      "Chỉ khi có sự giúp đỡ nước ngoài",
+      "Khi phong kiến ủng hộ"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Phương pháp cách mạng giải phóng dân tộc theo Hồ Chí Minh là?",
+    "options": [
+      "Hòa bình tuyệt đối",
+      "Bạo lực cách mạng",
+      "Đàm phán ngoại giao",
+      "Tẩy chay kinh tế"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Theo Hồ Chí Minh, bạo lực cách mạng bao gồm các hình thức đấu tranh nào?",
+    "options": [
+      "Đấu tranh chính trị và đấu tranh vũ trang",
+      "Đấu tranh kinh tế và ngoại giao",
+      "Đấu tranh văn hóa và giáo dục",
+      "Đấu tranh tư tưởng và pháp luật"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Hồ Chí Minh quan niệm chủ nghĩa xã hội là gì?",
+    "options": [
+      "Xã hội bóc lột",
+      "Xã hội không còn áp bức, bóc lột, do nhân dân lao động làm chủ",
+      "Xã hội phong kiến",
+      "Xã hội tư bản chủ nghĩa"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Mục tiêu cơ bản của chủ nghĩa xã hội theo Hồ Chí Minh là?",
+    "options": [
+      "Làm cho nhân dân lao động thoát nạn bần cùng, có công ăn việc làm, ấm no, hạnh phúc",
+      "Tăng trưởng GDP",
+      "Phát triển quân đội",
+      "Độc lập về chính trị"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Hồ Chí Minh cho rằng tiến lên chủ nghĩa xã hội là?",
+    "options": [
+      "Một lựa chọn ngẫu nhiên",
+      "Một tất yếu khách quan",
+      "Một bước lùi",
+      "Một sự thử nghiệm"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Đặc trưng chính trị của xã hội xã hội chủ nghĩa là?",
+    "options": [
+      "Chế độ độc tài quân sự",
+      "Chế độ dân chủ",
+      "Chế độ phong kiến",
+      "Chế độ tư bản chủ nghĩa"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Đặc trưng kinh tế của xã hội xã hội chủ nghĩa là?",
+    "options": [
+      "Nền kinh tế phát triển cao dựa trên lực lượng sản xuất hiện đại và chế độ công hữu tư liệu sản xuất chủ yếu",
+      "Nền kinh tế tư bản chủ nghĩa",
+      "Nền kinh tế phong kiến",
+      "Nền kinh tế tự cung tự cấp"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Hồ Chí Minh xác định chủ nghĩa xã hội là công trình của ai?",
+    "options": [
+      "Một cá nhân lãnh đạo",
+      "Tập thể nhân dân dưới sự lãnh đạo của Đảng Cộng sản",
+      "Các nhà tư bản",
+      "Các nước phương Tây"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Mục tiêu về chính trị trong xây dựng chủ nghĩa xã hội ở Việt Nam là?",
+    "options": [
+      "Xây dựng chế độ độc tài",
+      "Xây dựng chế độ dân chủ",
+      "Xây dựng chế độ quân chủ",
+      "Xây dựng chế độ phong kiến"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Mục tiêu về văn hóa trong xây dựng chủ nghĩa xã hội ở Việt Nam là?",
+    "options": [
+      "Văn hóa phong kiến",
+      "Văn hóa dân tộc, khoa học, đại chúng và tiếp thu tinh hoa nhân loại",
+      "Văn hóa tư bản chủ nghĩa",
+      "Văn hóa phương Tây thuần túy"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Động lực quyết định thúc đẩy cách mạng xã hội chủ nghĩa theo Hồ Chí Minh là?",
+    "options": [
+      "Nội lực dân tộc, nhân dân",
+      "Sự giúp đỡ nước ngoài",
+      "Lực lượng quân đội",
+      "Lực lượng tư sản"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Tính chất của thời kỳ quá độ lên chủ nghĩa xã hội là?",
+    "options": [
+      "Ngắn, đơn giản",
+      "Phức tạp, lâu dài, khó khăn, gian khổ",
+      "Không cần thiết",
+      "Dễ dàng và nhanh chóng"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Đặc điểm lớn nhất của thời kỳ quá độ ở Việt Nam là?",
+    "options": [
+      "Qua giai đoạn phát triển tư bản chủ nghĩa",
+      "Tiến thẳng lên chủ nghĩa xã hội từ nước nông nghiệp lạc hậu",
+      "Phát triển tư bản chủ nghĩa mạnh mẽ",
+      "Không có đặc điểm gì nổi bật"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Nhiệm vụ chính trị trong thời kỳ quá độ là?",
+    "options": [
+      "Xây dựng chế độ phong kiến",
+      "Xây dựng chế độ dân chủ",
+      "Xây dựng chế độ quân chủ",
+      "Giữ nguyên chế độ cũ"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Nguyên tắc xây dựng chủ nghĩa xã hội trong thời kỳ quá độ là?",
+    "options": [
+      "Thực hiện theo chủ nghĩa tư bản",
+      "Thực hiện trên nền tảng chủ nghĩa Mác – Lênin",
+      "Bỏ qua chủ nghĩa Mác – Lênin",
+      "Không có nguyên tắc"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Hồ Chí Minh cho rằng độc lập dân tộc là gì đối với chủ nghĩa xã hội?",
+    "options": [
+      "Không liên quan",
+      "Cơ sở, tiền đề để tiến lên chủ nghĩa xã hội",
+      "Mục tiêu cuối cùng",
+      "Chỉ là một phần nhỏ"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Chủ nghĩa xã hội là điều kiện để làm gì cho nền độc lập dân tộc?",
+    "options": [
+      "Yếu đi",
+      "Vững chắc",
+      "Bị đe dọa",
+      "Không quan trọng"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Điều kiện để bảo đảm độc lập dân tộc gắn liền với chủ nghĩa xã hội là?",
+    "options": [
+      "Vai trò lãnh đạo của Đảng Cộng sản",
+      "Đoàn kết dân tộc",
+      "Gắn bó với cách mạng thế giới",
+      "Cả A, B và C"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Hồ Chí Minh nói gì về vai trò của Đảng Cộng sản trong cách mạng giải phóng dân tộc?",
+    "options": [
+      "Đảng là đội tiên phong của giai cấp công nhân và nhân dân lao động",
+      "Đảng không quan trọng",
+      "Đảng chỉ là tổ chức phụ trợ",
+      "Đảng là của phong kiến"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Hồ Chí Minh khẳng định: “Nước Việt Nam là một, dân tộc Việt Nam là một” vào năm nào?",
+    "options": [
+      "1945",
+      "1958",
+      "1930",
+      "1965"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Theo Hồ Chí Minh, cách mạng giải phóng dân tộc ở thuộc địa có vai trò như thế nào?",
+    "options": [
+      "Phụ thuộc cách mạng chính quốc",
+      "Có thể thắng lợi trước cách mạng chính quốc",
+      "Không quan trọng",
+      "Chỉ là phong trào nhỏ"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Hồ Chí Minh cho rằng bạo lực cách mạng là gì?",
+    "options": [
+      "Dùng bạo lực của quần chúng dưới hai lực lượng chính trị và quân sự",
+      "Dùng bạo lực cá nhân",
+      "Dùng bạo lực quân đội nước ngoài",
+      "Không dùng bạo lực"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Hồ Chí Minh cho rằng muốn làm cách mạng trước hết phải có gì?",
+    "options": [
+      "Lực lượng cách mạng",
+      "Đảng cách mạng",
+      "Phương pháp cách mạng",
+      "Cả A, B và C"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Hồ Chí Minh cho rằng độc lập dân tộc không có ý nghĩa nếu?",
+    "options": [
+      "Người dân không hưởng tự do và hạnh phúc",
+      "Có tự do nhưng không có độc lập",
+      "Có hạnh phúc nhưng không có tự do",
+      "Có độc lập nhưng không có quân đội"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Hồ Chí Minh từng viết trong thư gửi Liên hợp quốc năm 1946 rằng?",
+    "options": [
+      "Nhân dân Việt Nam mong muốn hòa bình nhưng kiên quyết chiến đấu bảo vệ độc lập",
+      "Việt Nam sẽ từ bỏ độc lập để đổi lấy hòa bình",
+      "Việt Nam sẽ không chiến đấu",
+      "Việt Nam chỉ mong muốn hòa bình"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Hồ Chí Minh nhấn mạnh liên minh công - nông là gì?",
+    "options": [
+      "Nền tảng của đại đoàn kết toàn dân",
+      "Không cần thiết",
+      "Chỉ là liên minh tạm thời",
+      "Liên minh của tầng lớp tư sản"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Hồ Chí Minh cho rằng xây dựng nền văn hóa xã hội chủ nghĩa phải?",
+    "options": [
+      "Tẩy trừ di tích thuộc địa, phát triển truyền thống dân tộc và tiếp thu tinh hoa nhân loại",
+      "Bỏ qua văn hóa dân tộc",
+      "Chỉ học theo văn hóa phương Tây",
+      "Giữ nguyên văn hóa cũ"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Hồ Chí Minh cho rằng trong thời kỳ quá độ, cần phải?",
+    "options": [
+      "Xây đi đôi với chống",
+      "Chỉ xây dựng, không chống",
+      "Chỉ chống, không xây dựng",
+      "Không cần xây dựng"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Hồ Chí Minh cho rằng độc lập dân tộc phải gắn liền với?",
+    "options": [
+      "Tự do, cơm no, áo ấm và hạnh phúc của nhân dân",
+      "Chỉ quyền lực nhà nước",
+      "Chỉ quân đội mạnh",
+      "Chỉ kinh tế phát triển"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Hồ Chí Minh cho rằng cách mạng giải phóng dân tộc là sự nghiệp của ai?",
+    "options": [
+      "Toàn dân trên cơ sở liên minh công - nông - trí thức",
+      "Chỉ giai cấp công nhân",
+      "Chỉ giai cấp tư sản",
+      "Chỉ tầng lớp trí thức"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Hồ Chí Minh cho rằng cần đoàn kết toàn dân vì?",
+    "options": [
+      "Cách mạng là việc chung của toàn dân chứ không phải của một vài người",
+      "Cách mạng chỉ của giai cấp công nhân",
+      "Cách mạng chỉ của nông dân",
+      "Cách mạng chỉ của tầng lớp trí thức"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Hồ Chí Minh khẳng định trong Di chúc rằng?",
+    "options": [
+      "Tổ quốc nhất định sẽ thống nhất, đồng bào Nam Bắc nhất định sẽ sum họp một nhà",
+      "Tổ quốc sẽ chia cắt mãi mãi",
+      "Đồng bào Nam Bắc không cần đoàn kết",
+      "Tổ quốc chỉ là một phần nhỏ"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Hồ Chí Minh cho rằng chủ nghĩa xã hội là xã hội?",
+    "options": [
+      "Có trình độ phát triển cao về văn hóa và đạo đức, bảo đảm công bằng xã hội",
+      "Xã hội không có văn hóa",
+      "Xã hội bóc lột",
+      "Xã hội phong kiến"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Hồ Chí Minh cho rằng để tiến lên chủ nghĩa xã hội, các nước chưa qua giai đoạn phát triển tư bản chủ nghĩa phải?",
+    "options": [
+      "Đánh đổ đế quốc và phong kiến dưới sự lãnh đạo của Đảng vô sản",
+      "Phát triển tư bản chủ nghĩa trước",
+      "Giữ nguyên chế độ phong kiến",
+      "Phụ thuộc nước khác"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Hồ Chí Minh cho rằng trong thời kỳ quá độ, cần thay đổi triệt để?",
+    "options": [
+      "Những quan hệ xã hội cũ và thói quen lối sống không phù hợp",
+      "Không cần thay đổi gì",
+      "Chỉ thay đổi kinh tế",
+      "Chỉ thay đổi văn hóa"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Hồ Chí Minh cho rằng để bảo vệ nền độc lập dân tộc vững chắc cần?",
+    "options": [
+      "Xây dựng chủ nghĩa xã hội phát triển toàn diện",
+      "Chỉ dựa vào quân đội",
+      "Chỉ dựa vào ngoại giao",
+      "Không cần xây dựng gì thêm"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Hồ Chí Minh cho rằng lợi ích của dân, dân chủ của dân và đoàn kết toàn dân là?",
+    "options": [
+      "Cơ sở, tiền đề tạo nên động lực mạnh mẽ nhất của chủ nghĩa xã hội",
+      "Không quan trọng",
+      "Chỉ là lý thuyết",
+      "Không liên quan"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Hồ Chí Minh cho rằng muốn cứu nước và giải phóng dân tộc không có con đường nào khác ngoài?",
+    "options": [
+      "Con đường cách mạng vô sản",
+      "Con đường phong kiến",
+      "Con đường tư sản",
+      "Con đường hòa bình tuyệt đối"
+    ],
+    "answer": 0
+  }
+]

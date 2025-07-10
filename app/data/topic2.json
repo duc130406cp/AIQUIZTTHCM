@@ -1,0 +1,502 @@
+[
+  {
+    "question": "Thực tiễn thế giới cuối thế kỷ XIX, đầu thế kỷ XX chứng kiến sự phát triển của chủ nghĩa tư bản như thế nào?",
+    "options": [
+      "Từ giai đoạn đế quốc chủ nghĩa sang tự do cạnh tranh",
+      "Từ giai đoạn tự do cạnh tranh sang đế quốc chủ nghĩa",
+      "Từ chủ nghĩa tư bản sang chủ nghĩa phong kiến",
+      "Từ chủ nghĩa tư bản sang chủ nghĩa xã hội"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Cách mạng nào mở ra con đường giải phóng cho các dân tộc bị áp bức trên thế giới?",
+    "options": [
+      "Cách mạng Pháp",
+      "Cách mạng Mỹ",
+      "Cách mạng Tháng Mười Nga",
+      "Cách mạng Trung Quốc"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Việt Nam cuối thế kỷ XIX, đầu thế kỷ XX có đặc điểm gì nổi bật?",
+    "options": [
+      "Các phong trào yêu nước chống Pháp liên tục nổ ra",
+      "Hòa bình và ổn định kéo dài",
+      "Phát triển kinh tế mạnh mẽ",
+      "Chuyển sang chủ nghĩa tư bản"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Cơ sở lý luận quan trọng nhất quyết định bước phát triển mới trong tư tưởng Hồ Chí Minh là gì?",
+    "options": [
+      "Chủ nghĩa Mác-Lênin",
+      "Chủ nghĩa yêu nước Việt Nam",
+      "Tinh hoa văn hóa Phương Đông",
+      "Tinh hoa văn hóa Phương Tây"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Chủ nghĩa yêu nước trong truyền thống Việt Nam được Hồ Chí Minh kế thừa với đặc điểm nào?",
+    "options": [
+      "Tinh thần hòa bình, khoan dung, nhân ái",
+      "Tinh thần bạo lực, đối kháng",
+      "Tinh thần phong kiến bảo thủ",
+      "Tinh thần tư sản chủ nghĩa"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Tinh hoa văn hóa Phương Đông không bao gồm yếu tố nào dưới đây?",
+    "options": [
+      "Nho giáo",
+      "Phật giáo",
+      "Chủ nghĩa tư bản",
+      "Lão giáo"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Nho giáo theo Hồ Chí Minh nhấn mạnh đến các giá trị nào?",
+    "options": [
+      "Công bằng, bác ái, nhân, nghĩa, trí, dũng, tín, liêm",
+      "Tự do cá nhân, bình đẳng tuyệt đối",
+      "Đấu tranh giai cấp và cách mạng vô sản",
+      "Chủ nghĩa tư bản và cạnh tranh"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Phật giáo trong tinh hoa văn hóa phương Đông được Hồ Chí Minh đánh giá như thế nào?",
+    "options": [
+      "Vị tha, yêu thương con người, đề cao quyền bình đẳng",
+      "Tập trung vào bạo lực cách mạng",
+      "Chủ trương bóc lột và áp bức",
+      "Không có vai trò trong tư tưởng Hồ Chí Minh"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Lão giáo nhấn mạnh điều gì trong tư tưởng Hồ Chí Minh?",
+    "options": [
+      "Sống gắn bó và hòa đồng với thiên nhiên",
+      "Đấu tranh giai cấp quyết liệt",
+      "Phát triển công nghiệp và đô thị hóa",
+      "Tăng cường quân sự và bạo lực"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Tinh hoa văn hóa phương Tây mà Hồ Chí Minh tiếp thu là gì?",
+    "options": [
+      "Tự do - Bình đẳng - Bác ái",
+      "Phong kiến và quân chủ",
+      "Chủ nghĩa thực dân và đế quốc",
+      "Chủ nghĩa tư sản độc quyền"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Hồ Chí Minh coi chủ nghĩa Mác-Lênin là gì trong tư tưởng của mình?",
+    "options": [
+      "Cơ sở lý luận quyết định, tiền đề quan trọng nhất",
+      "Một học thuyết lỗi thời",
+      "Chủ nghĩa tư sản cải cách",
+      "Một triết lý dân tộc chủ nghĩa"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Phẩm chất nào không thuộc về Hồ Chí Minh theo tài liệu?",
+    "options": [
+      "Lý tưởng cao cả, hoài bão cứu nước",
+      "Ý chí, nghị lực to lớn",
+      "Tư duy độc lập, sáng tạo, phê phán",
+      "Tư tưởng bảo thủ, không đổi mới"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Hồ Chí Minh có tài năng gì nổi bật trong hoạt động cách mạng?",
+    "options": [
+      "Nhà tổ chức vĩ đại của cách mạng Việt Nam",
+      "Nhà kinh doanh thành đạt",
+      "Nhà văn hóa phong kiến",
+      "Nhà tư sản chủ nghĩa"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Thời kỳ trước ngày 5-6-1911, Hồ Chí Minh hình thành tư tưởng gì?",
+    "options": [
+      "Tư tưởng yêu nước và chí hướng tìm con đường cứu nước mới",
+      "Tư tưởng phong kiến",
+      "Tư tưởng tư sản chủ nghĩa",
+      "Tư tưởng bảo thủ"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Hồ Chí Minh đi ra nước ngoài tìm con đường cứu nước vào năm nào?",
+    "options": [
+      "5-6-1911",
+      "1920",
+      "1930",
+      "1945"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Tư tưởng Hồ Chí Minh về cách mạng giải phóng dân tộc hình thành trong giai đoạn nào?",
+    "options": [
+      "Giữa năm 1911 đến cuối năm 1920",
+      "Trước năm 1911",
+      "Sau năm 1945",
+      "Từ năm 1954"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Trong giai đoạn 1920-1930, Hồ Chí Minh tập trung làm gì?",
+    "options": [
+      "Thành lập Đảng Cộng sản Việt Nam, xây dựng cương lĩnh chính trị",
+      "Tham gia phong trào phong kiến",
+      "Chuyển sang chủ nghĩa tư sản",
+      "Rời khỏi Việt Nam"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Trong giai đoạn 1930-1941, Hồ Chí Minh gặp thử thách gì?",
+    "options": [
+      "Bị phê phán trong nội bộ cách mạng do quan điểm giáo điều tả khuynh",
+      "Tham gia chính phủ Pháp",
+      "Rời khỏi phong trào cách mạng",
+      "Không hoạt động chính trị"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Hội nghị Trung ương Đảng tháng 5-1941 có ý nghĩa gì?",
+    "options": [
+      "Khẳng định tư tưởng Hồ Chí Minh là yếu tố chỉ đạo cách mạng Việt Nam",
+      "Chấm dứt hoạt động của Đảng",
+      "Bỏ qua tư tưởng Hồ Chí Minh",
+      "Tán thành quan điểm giáo điều tả khuynh"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Tư tưởng Hồ Chí Minh tiếp tục phát triển trong giai đoạn nào?",
+    "options": [
+      "Từ đầu năm 1941 đến tháng 9-1969",
+      "Trước năm 1911",
+      "Sau năm 1975",
+      "Giai đoạn phong kiến"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Ngày 2-9-1945, Hồ Chí Minh làm gì?",
+    "options": [
+      "Đọc Tuyên ngôn Độc lập, khai sinh nước Việt Nam Dân chủ Cộng hòa",
+      "Rời khỏi Việt Nam",
+      "Tham gia phong trào phong kiến",
+      "Thành lập Đảng Cộng sản"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Từ 1946 đến 1954, Hồ Chí Minh là linh hồn của cuộc kháng chiến chống ai?",
+    "options": [
+      "Thực dân Pháp",
+      "Nhật Bản",
+      "Mỹ",
+      "Trung Quốc"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Từ 1954-1969, Hồ Chí Minh lãnh đạo thực hiện nhiệm vụ chiến lược nào?",
+    "options": [
+      "Xây dựng chủ nghĩa xã hội ở miền Bắc, cách mạng dân tộc dân chủ nhân dân ở miền Nam",
+      "Rời khỏi đất nước",
+      "Tham gia chính phủ Pháp",
+      "Phát triển phong kiến"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Hồ Chí Minh bổ sung và hoàn thiện hệ thống quan điểm cơ bản về lĩnh vực nào?",
+    "options": [
+      "Triết học, chính trị, kinh tế, quân sự, văn hóa, đạo đức, đối ngoại",
+      "Chỉ về kinh tế",
+      "Chỉ về quân sự",
+      "Chỉ về văn hóa"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Tư tưởng Hồ Chí Minh được Đảng Cộng sản Việt Nam vận dụng và phát triển trong thực tiễn cách mạng như thế nào?",
+    "options": [
+      "Tiếp tục phát triển và làm sáng tỏ",
+      "Bỏ qua",
+      "Phê phán",
+      "Không quan tâm"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Hồ Chí Minh chú trọng kế thừa giá trị truyền thống nào của dân tộc Việt Nam?",
+    "options": [
+      "Chủ nghĩa yêu nước",
+      "Chủ nghĩa tư sản",
+      "Chủ nghĩa phong kiến",
+      "Chủ nghĩa thực dân"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Hồ Chí Minh nhấn mạnh tinh thần nào trong truyền thống dân tộc?",
+    "options": [
+      "Đoàn kết, dân chủ, nhân ái, khoan dung",
+      "Độc tài, áp bức",
+      "Phân biệt đối xử",
+      "Bạo lực và chiến tranh"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Hồ Chí Minh tiếp thu tinh hoa văn hóa phương Đông nào?",
+    "options": [
+      "Nho giáo, Phật giáo, Lão giáo",
+      "Chủ nghĩa tư bản",
+      "Chủ nghĩa thực dân",
+      "Chủ nghĩa phong kiến"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Hồ Chí Minh tiếp thu tinh hoa văn hóa phương Tây nào?",
+    "options": [
+      "Tự do, bình đẳng, bác ái",
+      "Chủ nghĩa phong kiến",
+      "Chủ nghĩa thực dân",
+      "Chủ nghĩa tư sản độc quyền"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Hồ Chí Minh coi chủ nghĩa Mác-Lênin là gì?",
+    "options": [
+      "Thế giới quan, phương pháp luận trong nhận thức và hoạt động cách mạng",
+      "Một học thuyết lỗi thời",
+      "Chủ nghĩa tư sản cải cách",
+      "Triết lý dân tộc chủ nghĩa"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Hồ Chí Minh có phẩm chất nào nổi bật?",
+    "options": [
+      "Ý chí, nghị lực to lớn",
+      "Tư duy bảo thủ",
+      "Tư tưởng phong kiến",
+      "Lý tưởng nhỏ nhen"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Hồ Chí Minh có tài năng gì?",
+    "options": [
+      "Nhà tổ chức vĩ đại của cách mạng Việt Nam",
+      "Nhà kinh doanh thành đạt",
+      "Nhà văn hóa phong kiến",
+      "Nhà tư sản chủ nghĩa"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Hồ Chí Minh hình thành tư tưởng yêu nước trong thời kỳ nào?",
+    "options": [
+      "Trước ngày 5-6-1911",
+      "Sau năm 1945",
+      "Từ 1930 đến 1941",
+      "Từ 1954 đến 1969"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Hồ Chí Minh đi ra nước ngoài tìm đường cứu nước vào năm nào?",
+    "options": [
+      "5-6-1911",
+      "1920",
+      "1930",
+      "1945"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Tư tưởng Hồ Chí Minh về cách mạng vô sản hình thành trong giai đoạn nào?",
+    "options": [
+      "Giữa năm 1911 đến cuối năm 1920",
+      "Trước năm 1911",
+      "Sau năm 1945",
+      "Từ năm 1954"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Hồ Chí Minh thành lập Đảng Cộng sản Việt Nam vào năm nào?",
+    "options": [
+      "1930",
+      "1920",
+      "1945",
+      "1911"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Trong giai đoạn 1930-1941, Hồ Chí Minh bị phê phán vì?",
+    "options": [
+      "Quan điểm giáo điều tả khuynh",
+      "Tham gia chính phủ Pháp",
+      "Rời khỏi phong trào cách mạng",
+      "Không hoạt động chính trị"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Hội nghị Trung ương Đảng tháng 5-1941 có ý nghĩa gì?",
+    "options": [
+      "Khẳng định tư tưởng Hồ Chí Minh là yếu tố chỉ đạo cách mạng Việt Nam",
+      "Chấm dứt hoạt động của Đảng",
+      "Bỏ qua tư tưởng Hồ Chí Minh",
+      "Tán thành quan điểm giáo điều tả khuynh"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Tư tưởng Hồ Chí Minh tiếp tục phát triển trong giai đoạn nào?",
+    "options": [
+      "Từ đầu năm 1941 đến tháng 9-1969",
+      "Trước năm 1911",
+      "Sau năm 1975",
+      "Giai đoạn phong kiến"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Ngày 2-9-1945, Hồ Chí Minh làm gì?",
+    "options": [
+      "Đọc Tuyên ngôn Độc lập, khai sinh nước Việt Nam Dân chủ Cộng hòa",
+      "Rời khỏi Việt Nam",
+      "Tham gia phong trào phong kiến",
+      "Thành lập Đảng Cộng sản"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Từ 1946 đến 1954, Hồ Chí Minh là linh hồn của cuộc kháng chiến chống ai?",
+    "options": [
+      "Thực dân Pháp",
+      "Nhật Bản",
+      "Mỹ",
+      "Trung Quốc"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Từ 1954-1969, Hồ Chí Minh lãnh đạo thực hiện nhiệm vụ chiến lược nào?",
+    "options": [
+      "Xây dựng chủ nghĩa xã hội ở miền Bắc, cách mạng dân tộc dân chủ nhân dân ở miền Nam",
+      "Rời khỏi đất nước",
+      "Tham gia chính phủ Pháp",
+      "Phát triển phong kiến"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Hồ Chí Minh bổ sung và hoàn thiện hệ thống quan điểm cơ bản về lĩnh vực nào?",
+    "options": [
+      "Triết học, chính trị, kinh tế, quân sự, văn hóa, đạo đức, đối ngoại",
+      "Chỉ về kinh tế",
+      "Chỉ về quân sự",
+      "Chỉ về văn hóa"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Hồ Chí Minh được đánh giá là người có phẩm chất nào?",
+    "options": [
+      "Tận trung với nước, tận hiếu với dân",
+      "Tư duy bảo thủ",
+      "Lý tưởng nhỏ nhen",
+      "Ý chí yếu kém"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Hồ Chí Minh chú trọng kế thừa giá trị truyền thống nào của dân tộc Việt Nam?",
+    "options": [
+      "Chủ nghĩa yêu nước",
+      "Chủ nghĩa tư sản",
+      "Chủ nghĩa phong kiến",
+      "Chủ nghĩa thực dân"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Hồ Chí Minh nhấn mạnh tinh thần nào trong truyền thống dân tộc?",
+    "options": [
+      "Đoàn kết, dân chủ, nhân ái, khoan dung",
+      "Độc tài, áp bức",
+      "Phân biệt đối xử",
+      "Bạo lực và chiến tranh"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Hồ Chí Minh tiếp thu tinh hoa văn hóa phương Đông nào?",
+    "options": [
+      "Nho giáo, Phật giáo, Lão giáo",
+      "Chủ nghĩa tư bản",
+      "Chủ nghĩa thực dân",
+      "Chủ nghĩa phong kiến"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Hồ Chí Minh tiếp thu tinh hoa văn hóa phương Tây nào?",
+    "options": [
+      "Tự do, bình đẳng, bác ái",
+      "Chủ nghĩa phong kiến",
+      "Chủ nghĩa thực dân",
+      "Chủ nghĩa tư sản độc quyền"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Hồ Chí Minh coi chủ nghĩa Mác-Lênin là gì?",
+    "options": [
+      "Thế giới quan, phương pháp luận trong nhận thức và hoạt động cách mạng",
+      "Một học thuyết lỗi thời",
+      "Chủ nghĩa tư sản cải cách",
+      "Triết lý dân tộc chủ nghĩa"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Hồ Chí Minh có phẩm chất nào nổi bật?",
+    "options": [
+      "Ý chí, nghị lực to lớn",
+      "Tư duy bảo thủ",
+      "Tư tưởng phong kiến",
+      "Lý tưởng nhỏ nhen"
+    ],
+    "answer": 1
+  }
+]

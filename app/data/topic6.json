@@ -1,0 +1,502 @@
+[
+  {
+    "question": "Hồ Chí Minh định nghĩa văn hóa là gì?",
+    "options": [
+      "Tập hợp các công cụ vật chất",
+      "Tổng hợp mọi phương thức sinh hoạt và biểu hiện của loài người nhằm thích ứng với nhu cầu đời sống và sự sinh tồn",
+      "Chỉ là nghệ thuật và văn học",
+      "Chỉ là ngôn ngữ và chữ viết"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Theo Hồ Chí Minh, quan hệ giữa văn hóa và chính trị là gì?",
+    "options": [
+      "Văn hóa phải phục vụ nhiệm vụ chính trị và giải phóng chính trị mở đường cho văn hóa phát triển",
+      "Văn hóa và chính trị không liên quan",
+      "Chính trị phục vụ văn hóa",
+      "Văn hóa không cần quan tâm đến chính trị"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quan hệ giữa văn hóa và kinh tế theo Hồ Chí Minh là?",
+    "options": [
+      "Kinh tế phát triển thúc đẩy văn hóa phát triển",
+      "Văn hóa phát triển không liên quan kinh tế",
+      "Kinh tế và văn hóa độc lập",
+      "Văn hóa kìm hãm kinh tế"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Hồ Chí Minh nhấn mạnh về văn hóa dân tộc như thế nào?",
+    "options": [
+      "Phải chăm lo cốt cách dân tộc và tiếp thu tinh hoa văn hóa nhân loại",
+      "Bỏ qua văn hóa dân tộc",
+      "Chỉ học theo văn hóa nước ngoài",
+      "Không cần giữ gìn văn hóa dân tộc"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Văn hóa theo Hồ Chí Minh là mục tiêu gì của cách mạng?",
+    "options": [
+      "Quyền sống, quyền tự do, quyền mưu cầu hạnh phúc và khát vọng các giá trị chân, thiện, mỹ",
+      "Chỉ là mục tiêu kinh tế",
+      "Chỉ là mục tiêu chính trị",
+      "Không phải mục tiêu"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Văn hóa còn là động lực gì trong cách mạng?",
+    "options": [
+      "Văn hóa chính trị, văn nghệ, giáo dục, đạo đức, pháp luật",
+      "Chỉ là yếu tố phụ trợ",
+      "Không có vai trò động lực",
+      "Chỉ là nghệ thuật"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Mặt trận văn hóa theo Hồ Chí Minh là gì?",
+    "options": [
+      "Cuộc đấu tranh cách mạng trên lĩnh vực văn hóa - tư tưởng",
+      "Chỉ là hoạt động nghệ thuật",
+      "Không quan trọng",
+      "Chỉ là tuyên truyền"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Văn hóa phải phục vụ ai?",
+    "options": [
+      "Quần chúng nhân dân, phản ánh tư tưởng và khát vọng của họ",
+      "Chỉ phục vụ cán bộ",
+      "Chỉ phục vụ tầng lớp trí thức",
+      "Chỉ phục vụ nhà nước"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Hồ Chí Minh cho rằng nền văn hóa mới phải như thế nào?",
+    "options": [
+      "Toàn diện, giữ gìn cốt cách văn hóa dân tộc, bảo đảm tính khoa học, tiến bộ và nhân văn",
+      "Chỉ phát triển nghệ thuật",
+      "Bỏ qua văn hóa dân tộc",
+      "Không cần tính khoa học"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Đạo đức theo Hồ Chí Minh là gì?",
+    "options": [
+      "Gốc, nền tảng tinh thần của xã hội và người cách mạng",
+      "Điều phụ thuộc",
+      "Không quan trọng",
+      "Chỉ là luật lệ"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Đạo đức giúp con người như thế nào?",
+    "options": [
+      "Giúp vững vàng trong mọi thử thách",
+      "Không giúp gì",
+      "Làm suy yếu con người",
+      "Chỉ là hình thức"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Hồ Chí Minh nói gì về gắn đức với tài?",
+    "options": [
+      "Lời nói đi đôi với hành động và hiệu quả thực tế",
+      "Đức không cần thiết",
+      "Tài quan trọng hơn đức",
+      "Đạo đức không liên quan tài năng"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Đạo đức cách mạng theo Hồ Chí Minh là nhân tố gì?",
+    "options": [
+      "Tạo nên sức hấp dẫn của chủ nghĩa xã hội",
+      "Không quan trọng",
+      "Làm suy yếu cách mạng",
+      "Chỉ là lý thuyết"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Trung với nước, hiếu với dân là gì?",
+    "options": [
+      "Phẩm chất đạo đức bao trùm quan trọng nhất",
+      "Không cần thiết",
+      "Chỉ là khẩu hiệu",
+      "Chỉ dành cho cán bộ"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Trung với nước thể hiện như thế nào?",
+    "options": [
+      "Yêu nước, trung thành với Tổ quốc, phấn đấu cho dân giàu, nước mạnh",
+      "Không quan tâm đến dân tộc",
+      "Chỉ quan tâm đến cá nhân",
+      "Phụ thuộc nước ngoài"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Hiếu với dân nghĩa là?",
+    "options": [
+      "Thương dân, tin dân, học hỏi dân, lấy dân làm gốc",
+      "Không quan tâm đến dân",
+      "Chỉ quan tâm đến chính quyền",
+      "Bỏ qua dân"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Cần, kiệm, liêm, chính, chí công vô tư là gì?",
+    "options": [
+      "Nội dung cốt lõi của đạo đức cách mạng",
+      "Những phẩm chất không cần thiết",
+      "Chỉ dành cho cán bộ cấp cao",
+      "Những lý thuyết xa rời thực tế"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Hồ Chí Minh nói gì về tình thương yêu con người?",
+    "options": [
+      "Phải xây dựng trên lập trường giai cấp công nhân, thể hiện trong quan hệ hàng ngày",
+      "Không quan tâm đến con người",
+      "Chỉ quan tâm đến lợi ích cá nhân",
+      "Làm ngơ trước người khác"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Hồ Chí Minh nhấn mạnh thái độ nào đối với người khác?",
+    "options": [
+      "Rộng rãi, độ lượng, giàu lòng vị tha, tôn trọng quyền con người",
+      "Khắt khe, nghiêm khắc",
+      "Thờ ơ, hờ hững",
+      "Độc đoán, áp bức"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Tinh thần quốc tế trong sáng theo Hồ Chí Minh là gì?",
+    "options": [
+      "Đoàn kết với giai cấp vô sản toàn thế giới, chống chủ nghĩa dân tộc hẹp hòi và bành trướng",
+      "Chỉ quan tâm đến dân tộc mình",
+      "Phân biệt chủng tộc",
+      "Không quan tâm đến quốc tế"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Nguyên tắc “nói đi đôi với làm” theo Hồ Chí Minh là?",
+    "options": [
+      "Sự thống nhất giữa lý luận và thực tiễn, nền tảng triết lý sống",
+      "Chỉ nói mà không làm",
+      "Làm mà không nói",
+      "Không cần quan tâm"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Nêu gương về đạo đức là gì?",
+    "options": [
+      "Lời nói đi đôi với việc làm, gắn liền với tấm gương đạo đức",
+      "Chỉ nói mà không làm",
+      "Làm mà không nói",
+      "Không quan tâm"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "“Xây đi đôi với chống” nghĩa là?",
+    "options": [
+      "Xây dựng các giá trị đạo đức mới và chống các biểu hiện vô đạo đức",
+      "Chỉ xây dựng mà không chống",
+      "Chỉ chống mà không xây dựng",
+      "Không làm gì cả"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Hồ Chí Minh yêu cầu tu dưỡng đạo đức như thế nào?",
+    "options": [
+      "Suốt đời, kiên trì và bền bỉ",
+      "Chỉ khi cần thiết",
+      "Không cần tu dưỡng",
+      "Tu dưỡng một lần là đủ"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Hồ Chí Minh quan niệm con người là gì?",
+    "options": [
+      "Một chỉnh thể thống nhất về trí lực, tâm lực, thể lực và các mối quan hệ xã hội",
+      "Chỉ là cá nhân riêng biệt",
+      "Chỉ là sản phẩm của xã hội",
+      "Không có mối quan hệ xã hội"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Theo Hồ Chí Minh, con người là mục tiêu của cách mạng vì?",
+    "options": [
+      "Giải phóng dân tộc mở đường cho giải phóng xã hội, giai cấp và con người",
+      "Chỉ là phương tiện",
+      "Không quan trọng",
+      "Là sản phẩm của lịch sử"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Con người là động lực của cách mạng vì?",
+    "options": [
+      "Là vốn quý nhất, nhân tố quyết định thành công của sự nghiệp cách mạng",
+      "Không quan trọng",
+      "Là sản phẩm của xã hội",
+      "Chỉ là công cụ"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Ý nghĩa của việc xây dựng con người theo Hồ Chí Minh là?",
+    "options": [
+      "Yêu cầu khách quan, cấp bách, lâu dài, có ý nghĩa chiến lược của sự nghiệp cách mạng",
+      "Không cần thiết",
+      "Chỉ là lý thuyết",
+      "Chỉ dành cho cán bộ"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Hồ Chí Minh quan tâm xây dựng con người như thế nào?",
+    "options": [
+      "Toàn diện, vừa “hồng” vừa “chuyên”, có bản lĩnh chính trị vững vàng và năng lực làm chủ",
+      "Chỉ chú trọng chuyên môn",
+      "Chỉ chú trọng chính trị",
+      "Không quan tâm"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Phương pháp xây dựng con người mới theo Hồ Chí Minh là?",
+    "options": [
+      "Mỗi người tự rèn luyện, kết hợp với xây dựng cơ chế và nền dân chủ",
+      "Chỉ dựa vào nhà nước",
+      "Không cần xây dựng",
+      "Chỉ dựa vào giáo dục nhà trường"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Vai trò của người đứng đầu trong xây dựng con người mới là?",
+    "options": [
+      "Nêu gương và có ý nghĩa rất quan trọng",
+      "Không quan trọng",
+      "Chỉ là hình thức",
+      "Không cần thiết"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Hồ Chí Minh nhấn mạnh vai trò của tổ chức nào trong xây dựng con người?",
+    "options": [
+      "Đảng, chính quyền, đoàn thể quần chúng",
+      "Quân đội",
+      "Tư sản",
+      "Phong kiến"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Hồ Chí Minh cho rằng văn hóa phải có mối quan hệ mật thiết với lĩnh vực nào?",
+    "options": [
+      "Chính trị, kinh tế, xã hội",
+      "Chỉ kinh tế",
+      "Chỉ chính trị",
+      "Không liên quan"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Hồ Chí Minh nói “giải phóng chính trị để…”?",
+    "options": [
+      "Mở đường cho văn hóa phát triển",
+      "Bỏ qua văn hóa",
+      "Không quan tâm văn hóa",
+      "Phân biệt văn hóa"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Hồ Chí Minh cho rằng văn hóa là gì?",
+    "options": [
+      "Mục tiêu và động lực của sự nghiệp cách mạng",
+      "Chỉ là nghệ thuật",
+      "Không quan trọng",
+      "Chỉ là truyền thống"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Hồ Chí Minh nhấn mạnh văn hóa phải phản ánh gì?",
+    "options": [
+      "Tư tưởng và khát vọng của quần chúng",
+      "Ý chí của lãnh đạo",
+      "Lợi ích của tầng lớp thượng lưu",
+      "Không cần phản ánh"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Hồ Chí Minh cho rằng đạo đức là gì?",
+    "options": [
+      "Gốc, nền tảng, sức mạnh của người cách mạng",
+      "Không quan trọng",
+      "Chỉ là luật lệ",
+      "Chỉ là hình thức"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Hồ Chí Minh cho rằng đạo đức là thước đo của?",
+    "options": [
+      "Lòng cao thượng của con người",
+      "Sức mạnh vật chất",
+      "Quyền lực chính trị",
+      "Tiền bạc"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Hồ Chí Minh nhấn mạnh phẩm chất đạo đức nào là bao trùm nhất?",
+    "options": [
+      "Trung với nước, hiếu với dân",
+      "Tham ô, lãng phí",
+      "Độc tài, áp bức",
+      "Tư túng, chia rẽ"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Hồ Chí Minh cho rằng tình thương yêu con người phải dựa trên?",
+    "options": [
+      "Lập trường giai cấp công nhân",
+      "Lợi ích cá nhân",
+      "Quyền lực nhà nước",
+      "Chủ nghĩa tư bản"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Hồ Chí Minh nhấn mạnh nguyên tắc nào trong xây dựng đạo đức?",
+    "options": [
+      "Nói đi đôi với làm, nêu gương về đạo đức",
+      "Chỉ nói mà không làm",
+      "Làm mà không nói",
+      "Không quan tâm"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Hồ Chí Minh yêu cầu tu dưỡng đạo đức như thế nào?",
+    "options": [
+      "Suốt đời, kiên trì và bền bỉ",
+      "Chỉ khi cần thiết",
+      "Không cần tu dưỡng",
+      "Tu dưỡng một lần là đủ"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Hồ Chí Minh quan niệm con người là?",
+    "options": [
+      "Một chỉnh thể thống nhất về trí lực, tâm lực, thể lực và các mối quan hệ xã hội",
+      "Chỉ là cá nhân riêng biệt",
+      "Chỉ là sản phẩm của xã hội",
+      "Không có mối quan hệ xã hội"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Theo Hồ Chí Minh, con người là mục tiêu của cách mạng vì?",
+    "options": [
+      "Giải phóng dân tộc mở đường cho giải phóng xã hội, giai cấp và con người",
+      "Chỉ là phương tiện",
+      "Không quan trọng",
+      "Là sản phẩm của lịch sử"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Con người là động lực của cách mạng vì?",
+    "options": [
+      "Là vốn quý nhất, nhân tố quyết định thành công của sự nghiệp cách mạng",
+      "Không quan trọng",
+      "Là sản phẩm của xã hội",
+      "Chỉ là công cụ"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Ý nghĩa của việc xây dựng con người theo Hồ Chí Minh là?",
+    "options": [
+      "Yêu cầu khách quan, cấp bách, lâu dài, có ý nghĩa chiến lược của sự nghiệp cách mạng",
+      "Không cần thiết",
+      "Chỉ là lý thuyết",
+      "Chỉ dành cho cán bộ"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Hồ Chí Minh quan tâm xây dựng con người như thế nào?",
+    "options": [
+      "Toàn diện, vừa “hồng” vừa “chuyên”, có bản lĩnh chính trị vững vàng và năng lực làm chủ",
+      "Chỉ chú trọng chuyên môn",
+      "Chỉ chú trọng chính trị",
+      "Không quan tâm"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Phương pháp xây dựng con người mới theo Hồ Chí Minh là?",
+    "options": [
+      "Mỗi người tự rèn luyện, kết hợp với xây dựng cơ chế và nền dân chủ",
+      "Chỉ dựa vào nhà nước",
+      "Không cần xây dựng",
+      "Chỉ dựa vào giáo dục nhà trường"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Vai trò của người đứng đầu trong xây dựng con người mới là?",
+    "options": [
+      "Nêu gương và có ý nghĩa rất quan trọng",
+      "Không quan trọng",
+      "Chỉ là hình thức",
+      "Không cần thiết"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Hồ Chí Minh nhấn mạnh vai trò của tổ chức nào trong xây dựng con người?",
+    "options": [
+      "Đảng, chính quyền, đoàn thể quần chúng",
+      "Quân đội",
+      "Tư sản",
+      "Phong kiến"
+    ],
+    "answer": 1
+  }
+]

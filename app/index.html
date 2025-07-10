@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>AI Quiz Tư tưởng HCM</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+    }
+    .quote {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .quote h1 {
+      font-size: 28px;
+      margin: 5px 0;
+    }
+    .quote p {
+      font-size: 18px;
+      font-style: italic;
+      margin-top: 10px;
+      color: #555;
+    }
+    #quiz, #mainContent {
+      margin-top: 30px;
+    }
+    #feedback {
+      margin-top: 15px;
+    }
+    #nextBtn {
+      margin-top: 10px;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="quote">
+    <h1>“Học để làm việc, làm người, làm cán bộ.</h1>
+    <h1>Học để phụng sự nhân dân và tổ quốc.”</h1>
+    <p>— Hồ Chí Minh —</p>
+  </div>
+
+  <!-- API key input -->
+  <div id="apiKeyPrompt">
+    <h3>Vui lòng nhập API Key:</h3>
+    <input type="text" id="apiKeyInput" placeholder="Dán API key của bạn..." style="width: 300px;">
+    <button onclick="checkAndContinue()">Tiếp tục</button>
+    <p>Link lấy key: <a href="https://aistudio.google.com/apikey" target="_blank">https://aistudio.google.com/apikey</a></p>
+    <p id="apiKeyError" style="color:red;"></p>
+    <p id="loadingInit" style="color:green;"></p>
+  </div>
+
+  <!-- Main quiz content -->
+  <div id="mainContent" style="display:none;">
+    <h3>Chọn chủ đề:</h3>
+    <select id="topicSelect" onchange="handleCustomTopicToggle()">
+      <option value="all">📚 Ôn tập toàn bộ</option>
+      <option value="1">1. Đối tượng, phương pháp nghiên cứu, học tập và ý nghĩa</option>
+      <option value="2">2. Cơ sở, quá trình hình thành và phát triển TTHCM</option>
+      <option value="3">3. TTHCM về độc lập dân tộc & CNXH</option>
+      <option value="4">4. TTHCM về Đảng & Nhà nước cộng sản</option>
+      <option value="5">5. TTHCM về đoàn kết toàn dân tộc & quốc tế</option>
+      <option value="6">6. TTHCM về văn hóa, đạo đức, con người</option>
+      <option value="custom">7. ✨ Tùy chọn chủ đề</option>
+    </select>
+
+    <!-- Hiển khung nhập tự chọn khi chọn 'custom' -->
+    <div id="customTopicInput" style="display:none; margin-top:10px;">
+      <input type="text" id="customTopicText" placeholder="Nhập chủ đề bạn muốn..."><br/>
+      <small>GPT sẽ tự tạo câu hỏi xoay quanh chủ đề này</small>
+    </div>
+
+    <h3>Chọn số lượng câu hỏi:</h3>
+    <select id="numQuestions">
+      <option value="5">5</option>
+      <option value="10">10</option>
+      <option value="15">15</option>
+      <option value="20">20</option>
+    </select>
+
+    <button onclick="startQuiz()">Bắt đầu</button>
+
+    <div id="quiz" style="display:none;">
+      <div id="questionNumber" style="margin-bottom: 10px; font-weight: bold;"></div>
+      <p id="question"></p>
+      <div id="options"></div>
+      <button onclick="submitAnswer()">Nộp</button>
+      <div id="feedback"></div>
+      <button id="nextBtn" onclick="nextQuestion()">Câu tiếp theo</button>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script>
+    function checkAndContinue() {
+      const apiKey = document.getElementById("apiKeyInput").value.trim();
+      const error = document.getElementById("apiKeyError");
+      const loading = document.getElementById("loadingInit");
+
+      if (!apiKey) {
+        error.textContent = "Key không được để trống.";
+        return;
+      }
+
+      loading.textContent = "🔄 Đang khởi tạo...";
+
+      fetch("http://localhost:3000/api/gemini", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ prompt: "Trả lời: Xin chào", apiKey })
+      })
+      .then(res => res.json())
+      .then(data => {
+        loading.textContent = "";
+        if (data.result && data.result !== "Không có phản hồi.") {
+          sessionStorage.setItem("API_KEY", apiKey);
+          document.getElementById("apiKeyPrompt").style.display = "none";
+          document.getElementById("mainContent").style.display = "block";
+        } else {
+          error.textContent = "Key không hợp lệ. Hãy thử lại.";
+        }
+      })
+      .catch(() => {
+        loading.textContent = "";
+        error.textContent = "Key không hợp lệ hoặc server lỗi. Hãy thử lại.";
+      });
+    }
+
+    function handleCustomTopicToggle() {
+      const select = document.getElementById("topicSelect");
+      const customDiv = document.getElementById("customTopicInput");
+      customDiv.style.display = select.value === "custom" ? "block" : "none";
+    }
+  </script>
+  <script src="quiz.js"></script>
+</body>
+</html>

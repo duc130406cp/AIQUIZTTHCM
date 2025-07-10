@@ -1,0 +1,302 @@
+[
+  {
+    "question": "Đại đoàn kết toàn dân tộc theo Hồ Chí Minh có ý nghĩa gì?",
+    "options": [
+      "Là một chiến lược lâu dài, nhất quán của cách mạng Việt Nam",
+      "Là một chiến lược tạm thời",
+      "Không quan trọng trong cách mạng",
+      "Chỉ dành cho một số tầng lớp"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Hồ Chí Minh khẳng định: “Đoàn kết là…”?",
+    "options": [
+      "Một lực lượng vô địch để khắc phục khó khăn, giành thắng lợi",
+      "Một yếu tố phụ thuộc",
+      "Không cần thiết trong cách mạng",
+      "Chỉ là khẩu hiệu"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Đại đoàn kết toàn dân tộc là nhiệm vụ của ai?",
+    "options": [
+      "Đảng Cộng sản Việt Nam và toàn dân tộc",
+      "Chỉ của Đảng",
+      "Chỉ của nhà nước",
+      "Chỉ của quân đội"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Lực lượng làm nền tảng cho khối đại đoàn kết toàn dân tộc là?",
+    "options": [
+      "Công nhân, nông dân, trí thức",
+      "Quân đội và cảnh sát",
+      "Tầng lớp tư sản",
+      "Các nước đồng minh"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Chủ thể của khối đại đoàn kết toàn dân tộc gồm?",
+    "options": [
+      "Toàn thể nhân dân không phân biệt dân tộc, giai cấp, tôn giáo, đảng phái",
+      "Chỉ công nhân và nông dân",
+      "Chỉ tầng lớp trí thức",
+      "Chỉ đảng viên Đảng Cộng sản"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Hồ Chí Minh nhấn mạnh yếu tố nào trong xây dựng khối đại đoàn kết?",
+    "options": [
+      "Lòng khoan dung, độ lượng với con người",
+      "Độc tài và áp bức",
+      "Phân biệt đối xử",
+      "Độc quyền chính trị"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Mặt trận dân tộc thống nhất là gì?",
+    "options": [
+      "Tổ chức chính trị - xã hội rộng rãi tập hợp các giai cấp, dân tộc, tôn giáo, đảng phái yêu nước",
+      "Một tổ chức quân sự",
+      "Một tổ chức kinh tế",
+      "Một tổ chức quốc tế"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Nguyên tắc xây dựng Mặt trận dân tộc thống nhất là?",
+    "options": [
+      "Đặt dưới sự lãnh đạo của Đảng, xây dựng trên nền tảng liên minh công nhân - nông dân - trí thức",
+      "Hoạt động độc lập không liên quan Đảng",
+      "Chỉ tập hợp công nhân",
+      "Không có nguyên tắc cụ thể"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Phương thức xây dựng khối đại đoàn kết toàn dân tộc gồm?",
+    "options": [
+      "Làm tốt công tác vận động quần chúng (dân vận)",
+      "Chỉ dựa vào quân đội",
+      "Bỏ qua quần chúng",
+      "Chỉ dựa vào cán bộ cấp cao"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Hồ Chí Minh cho rằng đoàn kết quốc tế giúp gì cho cách mạng Việt Nam?",
+    "options": [
+      "Kết hợp sức mạnh dân tộc với sức mạnh thời đại, tạo sức mạnh tổng hợp",
+      "Không cần đoàn kết quốc tế",
+      "Chỉ dựa vào nội lực",
+      "Phụ thuộc hoàn toàn vào nước ngoài"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Sức mạnh thời đại được Hồ Chí Minh xác định là?",
+    "options": [
+      "Phong trào cách mạng thế giới và chủ nghĩa Mác - Lênin",
+      "Sức mạnh quân sự",
+      "Sức mạnh kinh tế tư bản",
+      "Sức mạnh phong kiến"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Hồ Chí Minh cho rằng đoàn kết quốc tế nhằm mục đích gì?",
+    "options": [
+      "Thực hiện thắng lợi các mục tiêu cách mạng của dân tộc và thời đại",
+      "Chỉ phục vụ lợi ích riêng của Việt Nam",
+      "Không quan tâm đến các dân tộc khác",
+      "Chỉ là hình thức ngoại giao"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Các lực lượng đoàn kết quốc tế bao gồm?",
+    "options": [
+      "Phong trào cộng sản và công nhân thế giới, phong trào giải phóng dân tộc, các lực lượng tiến bộ yêu chuộng hòa bình",
+      "Chỉ các nước tư bản",
+      "Chỉ các nước đế quốc",
+      "Chỉ các tổ chức quốc tế"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Hồ Chí Minh định hướng hình thành mấy tầng mặt trận?",
+    "options": [
+      "Bốn tầng mặt trận",
+      "Một tầng mặt trận",
+      "Hai tầng mặt trận",
+      "Ba tầng mặt trận"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Nguyên tắc đoàn kết quốc tế theo Hồ Chí Minh là?",
+    "options": [
+      "Đoàn kết trên cơ sở thống nhất mục tiêu và lợi ích, có lý, có tình",
+      "Đoàn kết không cần mục tiêu chung",
+      "Đoàn kết dựa trên sự lệ thuộc",
+      "Đoàn kết chỉ mang tính hình thức"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Đoàn kết quốc tế phải dựa trên cơ sở nào?",
+    "options": [
+      "Độc lập, tự chủ và nội lực tốt",
+      "Phụ thuộc hoàn toàn vào nước ngoài",
+      "Không cần nội lực",
+      "Bỏ qua lợi ích dân tộc"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Hồ Chí Minh nhấn mạnh điều gì để tranh thủ sự ủng hộ quốc tế?",
+    "options": [
+      "Đảng phải có đường lối độc lập, tự chủ và đúng đắn",
+      "Phụ thuộc vào nước ngoài",
+      "Bỏ qua quyền lợi dân tộc",
+      "Không cần đường lối rõ ràng"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Đại đoàn kết toàn dân tộc là gì theo Hồ Chí Minh?",
+    "options": [
+      "Vấn đề có ý nghĩa chiến lược, quyết định thành công của cách mạng",
+      "Vấn đề phụ thuộc",
+      "Vấn đề không quan trọng",
+      "Vấn đề tạm thời"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Hồ Chí Minh nói: “Đoàn kết, đoàn kết, đại đoàn kết/ Thành công, thành công, đại thành công” thể hiện?",
+    "options": [
+      "Vai trò then chốt của đoàn kết trong cách mạng",
+      "Không cần đoàn kết",
+      "Đoàn kết chỉ là khẩu hiệu",
+      "Đoàn kết không quan trọng"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Hồ Chí Minh cho rằng Đảng phải cụ thể hóa đại đoàn kết thành?",
+    "options": [
+      "Mục tiêu, nhiệm vụ và phương pháp cách mạng phù hợp với từng giai đoạn lịch sử",
+      "Chỉ là khẩu hiệu",
+      "Không cần cụ thể hóa",
+      "Chỉ là lý thuyết"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Hồ Chí Minh nói ai là hạt nhân của khối đại đoàn kết toàn dân tộc?",
+    "options": [
+      "Sự đoàn kết và thống nhất trong Đảng",
+      "Quân đội",
+      "Chính phủ",
+      "Các tổ chức quốc tế"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Hồ Chí Minh cho rằng để xây dựng khối đại đoàn kết cần kế thừa gì?",
+    "options": [
+      "Truyền thống yêu nước, nhân nghĩa, đoàn kết của dân tộc",
+      "Chủ nghĩa tư sản",
+      "Chủ nghĩa phong kiến",
+      "Chủ nghĩa thực dân"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Hồ Chí Minh nhấn mạnh điều gì trong quan hệ giữa các thành viên trong Mặt trận dân tộc thống nhất?",
+    "options": [
+      "Đoàn kết thật sự, chân thành, thân ái giúp đỡ nhau cùng tiến bộ",
+      "Độc tài và áp bức",
+      "Phân biệt đối xử",
+      "Độc quyền chính trị"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Hồ Chí Minh cho rằng Mặt trận dân tộc thống nhất phải hoạt động theo nguyên tắc nào?",
+    "options": [
+      "Hiệp thương dân chủ",
+      "Độc tài cá nhân",
+      "Phân quyền tuyệt đối",
+      "Phong kiến"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Hồ Chí Minh cho rằng đoàn kết quốc tế cần kết hợp sức mạnh nào?",
+    "options": [
+      "Sức mạnh dân tộc và sức mạnh thời đại",
+      "Chỉ sức mạnh dân tộc",
+      "Chỉ sức mạnh nước ngoài",
+      "Không cần kết hợp"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Hồ Chí Minh cho rằng sức mạnh dân tộc là gì?",
+    "options": [
+      "Tổng hợp các yếu tố vật chất và tinh thần giúp dân tộc vượt qua thử thách",
+      "Chỉ sức mạnh quân sự",
+      "Chỉ sức mạnh kinh tế",
+      "Chỉ sức mạnh chính trị"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Hồ Chí Minh cho rằng sức mạnh thời đại là gì?",
+    "options": [
+      "Sức mạnh của phong trào cách mạng thế giới và chủ nghĩa Mác - Lênin",
+      "Sức mạnh của quân đội",
+      "Sức mạnh của các nước đế quốc",
+      "Sức mạnh của phong kiến"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Hồ Chí Minh cho rằng đoàn kết quốc tế nhằm mục đích gì?",
+    "options": [
+      "Thực hiện thắng lợi các mục tiêu cách mạng của dân tộc và thời đại",
+      "Chỉ phục vụ lợi ích riêng của Việt Nam",
+      "Không quan tâm đến các dân tộc khác",
+      "Chỉ là hình thức ngoại giao"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Hồ Chí Minh nhấn mạnh đoàn kết quốc tế trên cơ sở nào?",
+    "options": [
+      "Thống nhất mục tiêu và lợi ích, có lý, có tình",
+      "Lệ thuộc và phụ thuộc",
+      "Không có mục tiêu chung",
+      "Đoàn kết hình thức"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Hồ Chí Minh cho rằng muốn đoàn kết tốt phải có?",
+    "options": [
+      "Nội lực tốt và đường lối độc lập, tự chủ",
+      "Phụ thuộc hoàn toàn vào nước ngoài",
+      "Không cần nội lực",
+      "Bỏ qua lợi ích dân tộc"
+    ],
+    "answer": 0
+  }
+]
