@@ -2,14 +2,43 @@
   "name": "tthcm-ai-quiz",
   "version": "1.0.0",
   "main": "main.js",
+  "description": "Ứng dụng AI Quiz ôn tập Tư tưởng Hồ Chí Minh",
+  "author": "Bạn",
+  "license": "MIT",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-builder"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2"
+  },
   "devDependencies": {
-    "electron": "^37.2.0"
+    "electron": "^37.2.0",
+    "electron-builder": "^24.11.0"
+  },
+  "build": {
+    "appId": "com.tthcm.quiz",
+    "productName": "AI Quiz Tư tưởng HCM",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "app/**/*",
+      "main.js",
+      "server.js",
+      "package.json",
+      "node_modules/**/*"
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "app/asset/tthcm-icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
   }
 }

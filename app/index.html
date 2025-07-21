@@ -2,36 +2,81 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>AI Quiz Tư tưởng HCM</title>
+  <title>Trợ giảng AI Tư tưởng HCM</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 40px;
     }
+
+    #apiKeyPrompt, #setup, #quiz { 
+      background-color: rgba(255, 255, 255, 0.85);
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    }
+
     .quote {
       text-align: center;
       margin-bottom: 40px;
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 10px;
+      border-radius: 10px;
     }
-    .quote h1 {
-      font-size: 28px;
-      margin: 5px 0;
-    }
-    .quote p {
-      font-size: 18px;
+
+    .quote h1 { font-size: 28px; margin: 5px 0; }
+    .quote p { font-size: 18px; font-style: italic; margin-top: 10px; color: #555; }
+    #quiz, #setup { margin-top: 30px; }
+    #feedback { margin-top: 15px; }
+    #nextBtn { margin-top: 10px; display: none; }
+
+    .credit {
+      position: fixed;
+      bottom: 8px;
+      right: 12px;
+      font-size: 11px;
+      color: #999;
+      background-color: rgba(255,255,255,0.6);
+      padding: 3px 6px;
+      border-radius: 6px;
       font-style: italic;
-      margin-top: 10px;
-      color: #555;
+      z-index: 10000;
     }
-    #quiz, #mainContent {
-      margin-top: 30px;
+
+    #chat-toggle-button {
+      position: fixed; bottom: 20px; right: 20px; width: 60px; height: 60px;
+      background-color: #0d6efd; color: white; border-radius: 50%;
+      display: none; align-items: center; justify-content: center;
+      font-size: 30px; cursor: pointer; box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      z-index: 1001; transition: transform 0.2s;
     }
-    #feedback {
-      margin-top: 15px;
+    #chat-toggle-button:hover { transform: scale(1.1); }
+
+    #chat-panel {
+      position: fixed; bottom: 90px; right: 20px; width: 360px; height: 500px;
+      background-color: #ffffff; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+      display: flex; flex-direction: column; z-index: 1000;
+      opacity: 0; transform: translateY(20px); visibility: hidden;
+      transition: opacity 0.3s, transform 0.3s;
     }
-    #nextBtn {
-      margin-top: 10px;
-      display: none;
+    #chat-panel.open { opacity: 1; transform: translateY(0); visibility: visible; }
+
+    .chat-header {
+      padding: 10px 15px; background-color: #0d6efd; color: white;
+      border-top-left-radius: 15px; border-top-right-radius: 15px;
+      display: flex; justify-content: space-between; align-items: center;
     }
+    .chat-header h3 { margin: 0; font-size: 16px; }
+    .close-btn { background: none; border: none; color: white; font-size: 24px; cursor: pointer; }
+
+    #chat-messages { flex-grow: 1; padding: 15px; overflow-y: auto; display: flex; flex-direction: column; gap: 10px; }
+    .message { padding: 10px 15px; border-radius: 18px; max-width: 85%; line-height: 1.4; word-wrap: break-word; }
+    .user-message { background-color: #0d6efd; color: white; align-self: flex-end; }
+    .ai-message { background-color: #f1f0f0; color: black; align-self: flex-start; }
+
+    .chat-input-area { padding: 10px; display: flex; border-top: 1px solid #ddd; }
+    #chat-input { flex-grow: 1; border: 1px solid #ccc; border-radius: 18px; padding: 10px 15px; font-size: 14px; }
+    #send-chat-btn { margin-left: 8px; border-radius: 50%; border: none; background-color: #0d6efd; color: white; cursor: pointer; width: 40px; height: 40px; font-size: 18px; }
   </style>
 </head>
 <body>
@@ -41,7 +86,6 @@
     <p>— Hồ Chí Minh —</p>
   </div>
 
-  <!-- API key input -->
   <div id="apiKeyPrompt">
     <h3>Vui lòng nhập API Key:</h3>
     <input type="text" id="apiKeyInput" placeholder="Dán API key của bạn..." style="width: 300px;">
@@ -51,8 +95,7 @@
     <p id="loadingInit" style="color:green;"></p>
   </div>
 
-  <!-- Main quiz content -->
-  <div id="mainContent" style="display:none;">
+  <div id="setup" style="display:none;">
     <h3>Chọn chủ đề:</h3>
     <select id="topicSelect" onchange="handleCustomTopicToggle()">
       <option value="all">📚 Ôn tập toàn bộ</option>
@@ -64,13 +107,10 @@
       <option value="6">6. TTHCM về văn hóa, đạo đức, con người</option>
       <option value="custom">7. ✨ Tùy chọn chủ đề</option>
     </select>
-
-    <!-- Hiển khung nhập tự chọn khi chọn 'custom' -->
     <div id="customTopicInput" style="display:none; margin-top:10px;">
       <input type="text" id="customTopicText" placeholder="Nhập chủ đề bạn muốn..."><br/>
-      <small>GPT sẽ tự tạo câu hỏi xoay quanh chủ đề này</small>
+      <small>Trợ giảng AI sẽ tự tạo câu hỏi xoay quanh chủ đề này</small>
     </div>
-
     <h3>Chọn số lượng câu hỏi:</h3>
     <select id="numQuestions">
       <option value="5">5</option>
@@ -78,50 +118,66 @@
       <option value="15">15</option>
       <option value="20">20</option>
     </select>
-
     <button onclick="startQuiz()">Bắt đầu</button>
+  </div>
 
-    <div id="quiz" style="display:none;">
-      <div id="questionNumber" style="margin-bottom: 10px; font-weight: bold;"></div>
-      <p id="question"></p>
-      <div id="options"></div>
-      <button onclick="submitAnswer()">Nộp</button>
-      <div id="feedback"></div>
-      <button id="nextBtn" onclick="nextQuestion()">Câu tiếp theo</button>
+  <div id="quiz" style="display:none;">
+    <div id="questionNumber" style="margin-bottom: 10px; font-weight: bold;"></div>
+    <p id="question"></p>
+    <div id="options"></div>
+    <button id="submitBtn" onclick="submitAnswer()">Nộp</button>
+    <div id="feedback"></div>
+    <button id="nextBtn" onclick="nextQuestion()">Câu tiếp theo</button>
+  </div>
+
+  <div id="chat-toggle-button" onclick="toggleChat()">🤖</div>
+  <div id="chat-panel">
+    <div class="chat-header">
+      <h3>Trò chuyện với Trợ giảng AI</h3>
+      <button class="close-btn" onclick="toggleChat()">×</button>
+    </div>
+    <div id="chat-messages">
+      <div class="message ai-message">Xin chào, tôi là trợ giảng AI của bạn. Bạn cần tôi giúp gì?</div>
+    </div>
+    <div class="chat-input-area">
+      <input type="text" id="chat-input" placeholder="Nhập câu hỏi...">
+      <button id="send-chat-btn" onclick="sendChatMessage()">➤</button>
     </div>
   </div>
 
-  <!-- Scripts -->
   <script>
     function checkAndContinue() {
       const apiKey = document.getElementById("apiKeyInput").value.trim();
       const error = document.getElementById("apiKeyError");
       const loading = document.getElementById("loadingInit");
-
+      error.textContent = "";
       if (!apiKey) {
         error.textContent = "Key không được để trống.";
         return;
       }
-
       loading.textContent = "🔄 Đang khởi tạo...";
-
       fetch("http://localhost:3000/api/gemini", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ prompt: "Trả lời: Xin chào", apiKey })
+        body: JSON.stringify({ prompt: "Chỉ cần trả lời 'OK'", apiKey })
       })
-      .then(res => res.json())
+      .then(res => {
+        if (!res.ok) { throw new Error(`Server response: ${res.status}`); }
+        return res.json();
+      })
       .then(data => {
         loading.textContent = "";
-        if (data.result && data.result !== "Không có phản hồi.") {
+        if (data.result && !data.errorMessage) {
           sessionStorage.setItem("API_KEY", apiKey);
           document.getElementById("apiKeyPrompt").style.display = "none";
-          document.getElementById("mainContent").style.display = "block";
+          document.getElementById("setup").style.display = "block";
+          document.getElementById("chat-toggle-button").style.display = 'flex';
         } else {
-          error.textContent = "Key không hợp lệ. Hãy thử lại.";
+          error.textContent = "Key không hợp lệ hoặc đã hết hạn. Hãy thử lại.";
         }
       })
-      .catch(() => {
+      .catch((err) => {
+        console.error("Lỗi khi kiểm tra API:", err);
         loading.textContent = "";
         error.textContent = "Key không hợp lệ hoặc server lỗi. Hãy thử lại.";
       });
@@ -133,6 +189,114 @@
       customDiv.style.display = select.value === "custom" ? "block" : "none";
     }
   </script>
+
+  <script>
+    async function retry(fn, retries = 3, delay = 1000) {
+      let lastError;
+      for (let i = 0; i < retries; i++) {
+        try {
+          return await fn();
+        } catch (error) {
+          lastError = error;
+          if (error.message.toLowerCase().includes("overloaded")) {
+            console.log(`Lần thử ${i + 1} thất bại (quá tải). Đang thử lại sau ${delay / 1000}s...`);
+            await new Promise(res => setTimeout(res, delay));
+            delay *= 2;
+          } else {
+            throw error;
+          }
+        }
+      }
+      throw lastError;
+    }
+  </script>
+
   <script src="quiz.js"></script>
+
+  <script>
+    window.addEventListener("DOMContentLoaded", () => {
+      const path = require("path");
+      const bgPath = path.join(__dirname, "asset/background.jpg").replace(/\\/g, "/");
+      document.body.style.backgroundImage = `url("file://${bgPath}")`;
+      document.body.style.backgroundSize = "cover";
+      document.body.style.backgroundPosition = "center";
+      document.body.style.backgroundRepeat = "no-repeat";
+      document.body.style.backgroundAttachment = "fixed";
+    });
+  </script>
+  
+  <script>
+    function toggleChat() {
+      document.getElementById('chat-panel').classList.toggle('open');
+    }
+
+    async function sendChatMessage() {
+      const input = document.getElementById('chat-input');
+      const messagesContainer = document.getElementById('chat-messages');
+      const userMessage = input.value.trim();
+
+      if (!userMessage) return;
+
+      const userDiv = document.createElement('div');
+      userDiv.className = 'message user-message';
+      userDiv.textContent = userMessage;
+      messagesContainer.appendChild(userDiv);
+      input.value = '';
+      messagesContainer.scrollTop = messagesContainer.scrollHeight;
+
+      const thinkingDiv = document.createElement('div');
+      thinkingDiv.className = 'message ai-message';
+      thinkingDiv.innerHTML = "<i>🤖 Đang suy nghĩ...</i>";
+      messagesContainer.appendChild(thinkingDiv);
+      messagesContainer.scrollTop = messagesContainer.scrollHeight;
+
+      try {
+        const apiCall = async () => {
+          const apiKey = sessionStorage.getItem("API_KEY");
+          const prompt = `Bạn là một trợ giảng AI thân thiện và hữu ích. Nếu người dùng hỏi về môn Tư tưởng Hồ Chí Minh, hãy trả lời với tư cách chuyên gia. Nếu họ chỉ chào hỏi hoặc trò chuyện thông thường, hãy phản hồi một cách tự nhiên. Câu hỏi của họ là: "${userMessage}"`;
+          const res = await fetch("http://localhost:3000/api/gemini", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ prompt, apiKey })
+          });
+          const data = await res.json();
+          if (data.errorMessage) {
+            throw new Error(data.errorMessage);
+          }
+          return data.result;
+        };
+
+        const resultText = await retry(apiCall); 
+        thinkingDiv.innerHTML = resultText || "Xin lỗi, tôi chưa có câu trả lời.";
+
+      } catch (error) {
+        console.error("Lỗi chat sau khi đã thử lại:", error);
+        let userErrorMessage = "Đã xảy ra lỗi khi kết nối tới Trợ giảng AI.";
+        if (error.message.toLowerCase().includes("overloaded")) {
+          userErrorMessage = "🤖 Trợ giảng AI đang rất bận, bạn vui lòng chờ một lát nhé.";
+        }
+        thinkingDiv.textContent = userErrorMessage;
+      } finally {
+        messagesContainer.scrollTop = messagesContainer.scrollHeight;
+      }
+    }
+
+    document.getElementById('chat-input').addEventListener('keydown', (event) => {
+      if (event.key === 'Enter') {
+        event.preventDefault();
+        sendChatMessage();
+      }
+    });
+  </script>
+
+  <div id="loadingOverlay" style="
+    position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+    background-color: rgba(255,255,255,0.7); display: none; align-items: center;
+    justify-content: center; font-size: 20px; font-weight: bold; z-index: 9999;
+  ">
+    🔄 Trợ giảng AI đang xử lý...
+  </div>
+
+  <div class="credit">by Nguyễn Việt Đức - 24022295@vnu.edu.vn</div>
 </body>
 </html>
