@@ -74,3 +74,14 @@ out
 # Others
 *.tgz
 vite.config.*.timestamp-*
+
+*.exe
+*.zip
+*.rar
+*.7z
+*.iso
+*.dmg
+*.mp4
+*.mp3
+*.avi
+*.psd
