@@ -59,12 +59,3 @@
 - Nếu nhập sai, ứng dụng sẽ thông báo lỗi  
 - Ứng dụng chỉ hoạt động khi có Internet
 
----
-
-### B. Dành cho lập trình viên
-
-```bash
-git clone https://github.com/duc130406cp/AIQUIZTTHCM.git
-cd AIQUIZTTHCM
-npm install
-node server.js
